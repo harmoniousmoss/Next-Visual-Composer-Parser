@@ -12,7 +12,7 @@ export default class App extends Component {
   // Function to receivedata from the endpoint
   receiveData() {
     axios
-      .get(`https://prospera.or.id/wp-json/wp/v2/pages/7832`, {})
+      .get(`https://your_wordpress_endpoint here`, {})
       .then((res) => {
         const data = res.data;
         console.log(data);
